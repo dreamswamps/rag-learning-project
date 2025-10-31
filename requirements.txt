@@ -1,0 +1,13 @@
+chromadb==0.6.3
+fastapi==0.115.11
+langchain==0.3.20
+langchain-community==0.3.19
+langchain-core==0.3.45
+langchain-huggingface==0.1.2
+langchain-openai==0.3.8
+openai==1.64.0
+pydantic==2.11.2
+python-dotenv==0.21.0
+requests==2.32.3
+streamlit==1.37.1
+torch==2.6.0+cu126
