@@ -56,7 +56,7 @@
     MYSQL_DATABASE=your_database
     ```
 
-4. 配置数据库
+4. 配置数据库：
     - 创建数据表：
     ```sql
     CREATE TABLE `apikey` (
@@ -106,7 +106,7 @@ rag-learning-project/
 |   |   └── WriteHelper.py      # 写作助手功能
 |   ├── 📁 Method_Useful
 |   |   ├── GetApikey.py        # 获取API密钥
-|   |   ├── RemoveThink.py     # 移除思考结果
+|   |   ├── RemoveThink.py      # 移除思考结果
 |   |   └── SendtoAi.py         # AI请求发送
 |   ├── 📁 Rag
 |   |   ├── RagChat.py          # Rag交互页面
@@ -119,11 +119,13 @@ rag-learning-project/
 ```
 
 ## ⚠️ 注意事项
+
 - 确保MySQL服务已启动
 - 本地模型需要提前部署并保证数据表中的URL可访问
 - 首次运行可能较慢
 
 ## 🔧 故障排除
+
 **Q: 启动前后端服务时出现报错？**
 
 **A:** 请按照以下步骤进行排查： 
@@ -143,6 +145,6 @@ rag-learning-project/
 
 **A:** 这是Python第一次对模块编译的字节码缓存，可以加快后续的启动速度。
 
-**Q: 克隆项目并运行后，终端出现警告/报错，该如何解决？**
+**Q: 克隆项目并运行后，终端显示警告/报错，该如何解决？**
 
-**A:** 这个问题可能是因为LangChain的版本更新导致的旧接口被弃用情况。LangChain的版本更新可能伴随着接口的弃用，在该情况下，请查看`requirements.txt`中的对应版本。或者查看警告信息，可能告知哪个接口被替换为哪个的信息。
+**A:** 这个问题可能是因为LangChain的版本更新导致的旧接口被弃用情况。LangChain的版本更新可能伴随着接口的弃用，在该情况下，请查看`requirements.txt`中的对应版本。或者查看警告信息，可能找到指示弃用接口被替换为哪个的信息。
